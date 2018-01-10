@@ -12,7 +12,7 @@ public class Cube {
         return face;
     }
 
-    public int volume() {
+    public int getVolume() {
         int height = face.getHeight();
         return height*height*height;
     }

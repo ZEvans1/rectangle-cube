@@ -2,9 +2,6 @@ package models;
 
 import java.util.ArrayList;
 
-/**
- * Created by staff on 7/10/17.
- */
 public class Rectangle {
     private int height;
     private int width;

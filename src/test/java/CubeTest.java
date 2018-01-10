@@ -24,7 +24,7 @@ public class CubeTest {
     public void volume_determinesTheVolumeOfTheCube_27000() throws Exception {
         Rectangle testRectangle = new Rectangle(30,30);
         Cube testCube = new Cube(testRectangle);
-        assertEquals(27000, testCube.volume());
+        assertEquals(27000, testCube.getVolume());
     }
 
     @Test
