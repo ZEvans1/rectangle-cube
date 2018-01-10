@@ -1,14 +1,13 @@
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
+
+import models.Rectangle;
 import spark.ModelAndView;
 import spark.template.handlebars.HandlebarsTemplateEngine;
 
 import static spark.Spark.get;
 
-/**
- * Created by staff on 7/10/17.
- */
 public class App {
     public static void main(String[] args) {
 

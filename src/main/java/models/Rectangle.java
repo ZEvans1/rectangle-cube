@@ -1,3 +1,5 @@
+package models;
+
 import java.util.ArrayList;
 
 /**
@@ -38,6 +40,10 @@ public class Rectangle {
         else {
             return false;
         }
+    }
+
+    public int area() {
+        return height * width;
     }
 
 }
